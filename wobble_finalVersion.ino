@@ -22,7 +22,7 @@ void loop() {
   
   // Read raw accelerometer and gyroscope measurements from MPU6050
   mpu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-
+// mai hu pagal agvnbasonvgaonvgoanvon
   // Convert the raw accelerometer values to angles
   float angleX = atan(ax / sqrt(pow(ay, 2) + pow(az, 2))) * 180 / PI;
   float angleY = atan(ay / sqrt(pow(ax, 2) + pow(az, 2))) * 180 / PI;
